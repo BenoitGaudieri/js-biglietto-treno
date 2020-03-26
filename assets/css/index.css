@@ -8,12 +8,19 @@ body {
     font-family: "Montserrat";
 }
 
+.container__main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 #js-price {
-    font-size: 18px;
+    font-size: 50px;
+    margin: 30px;
 }
 
 #js-sale {
-    font-size: 20px;
+    font-size: 30px;
     color: #00ca00;
     animation: scale infinite alternate-reverse linear 3s;
 }
