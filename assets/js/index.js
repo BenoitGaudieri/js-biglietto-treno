@@ -9,8 +9,8 @@ var age;
 var kmToTravel;
 var result;
 
-age = prompt("How old are you?");
-kmToTravel = prompt("How many km?");
+age = parseInt(prompt("How old are you?"));
+kmToTravel = parseInt(prompt("How many km?"));
 priceToKm = 0.21;
 
 if (age < 18) {
