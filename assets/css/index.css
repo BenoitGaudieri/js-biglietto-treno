@@ -7,3 +7,22 @@
 body {
     font-family: "Montserrat";
 }
+
+#js-price {
+    font-size: 18px;
+}
+
+#js-sale {
+    font-size: 20px;
+    color: #00ca00;
+    animation: scale infinite alternate-reverse linear 3s;
+}
+
+@keyframes scale {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.5);
+    }
+}
